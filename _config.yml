@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Matthew Clarkson
+tagline:          'Founder of hilenium.com, software developer, former CMO'
+description:      'Founder of <a href="http://hilenium.com" target="_blank">Hilenium.com</a>, lover of Swift, Symfony2, wants to do more Python.'
+url:              http://mpclarkson.github.io
+baseurl:          /
+
+author:
+  name:           'Matthew Clarkson'
+  url:            https://twitter.com/matt_clarkson
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/mpclarkson
