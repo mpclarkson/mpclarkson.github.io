@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to Draw a Speech Bubble in Swift 2.0
-categories: swift, CGContext
 comments: true
 ---
 
@@ -29,6 +28,8 @@ class SpeechBubble: UIView {
 }
 
 {% endhighlight %}
+
+<!--more-->
 
 ## Step 2: Override `drawRect(rect: CGRect)`
 
@@ -79,7 +80,7 @@ Now we just need to add a convenience initializer so we can change the default c
 
 {% highlight swift %}
 
- required convenience init(withColor frame: CGRect, color:UIColor? = nil) {
+ required convenience init(withColor frame: CGRect, color:UIColor? = .None) {
     self.init(frame: frame)
 
     if let color = color {
@@ -91,7 +92,7 @@ Now we just need to add a convenience initializer so we can change the default c
 
 You can now instantiate a speech bubble with a color as follows:
 
-`let speechBubble = SpeechBubble(withColor: CGRect(x: 0, y: 0, width: 200, height: 200), color: .redColor())`
+{% highlight swift %} let speechBubble = SpeechBubble(withColor: CGRect(x: 0, y: 0, width: 200, height: 200), color: .redColor()) {% endhighlight %}
 
 Of course, you can easily tweak this class to make it more flexible, such as customizing how rounded the edges are or adding a `UILabel` to display the number of comments etc.
 
@@ -111,7 +112,7 @@ class SpeechBubble: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
-    required convenience init(withColor frame: CGRect, color:UIColor? = nil) {
+    required convenience init(withColor frame: CGRect, color:UIColor? = .None) {
         self.init(frame: frame)
 
         if let color = color {
