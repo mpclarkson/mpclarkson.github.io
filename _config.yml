@@ -26,8 +26,3 @@ github:
   repo:           https://github.com/mpclarkson
 
 excerpt_separator: <!--more-->
-
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-67153607-1'
