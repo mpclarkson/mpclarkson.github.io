@@ -4,7 +4,9 @@ title: How to Draw a Speech Bubble in Swift 2.0
 comments: true
 ---
 
-Here's a quick example of how to create a custom UIView to display a speech bubble in Swift 2.0.
+Here's a quick example of how to create a custom `UIView` to display a speech bubble in Swift 2.0 just like this:
+
+![swift uiview speech bubble](/assets/swift-speech-bubble.png)
 
 ## Step 1: Subclass UIView
 
