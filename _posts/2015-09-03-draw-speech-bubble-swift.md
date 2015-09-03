@@ -29,9 +29,9 @@ class SpeechBubble: UIView {
 
 {% endhighlight %}
 
-<!--more-->
-
 ## Step 2: Override `drawRect(rect: CGRect)`
+
+<!--more-->
 
 Do *not* call `super.drawRect(rect)` in this method!
 
