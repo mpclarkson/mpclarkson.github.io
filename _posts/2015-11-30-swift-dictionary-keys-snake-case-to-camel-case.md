@@ -33,7 +33,7 @@ extension String {
 
 This `underscoreToCamelCase` variable splits any string in to an array of strings `[String]` using an underscore as a delimiter. We then
 `enumerate` the string so we can track the index and each string in the array. The first element of the array should always be lowercase
-(we are assuming the api always returns a lowercase first character` here - i.e.` index == 0`) and each subsequent element is
+(we are assuming the api always returns a lowercase first character here - i.e.`$0 (the index) == 0`) and each subsequent element is
 capitalized.
 
 Now we need a `Dictionary` extension that recursively checks each key and converts string keys to `camelCase`, as follows:
@@ -74,11 +74,11 @@ In this extension we convert an array of keys and an array of values for the dic
 response to a dictionary). The keys array is enumerated, again so we can easily keep track of the `index` and the `key` without writing
 verbose incrementers, such as `count++`.
 
-For each key, we check if the corresponding value is a dictionary or not. If it is a dictionary, we apply the same `keysToCamelCase` function
-recursively to the sub dictionary (which again does the same to each associated key and so on...). The resulting value, either then original value
+For each key, we check if the corresponding value is a dictionary and also need conversion. If it is a dictionary, we apply the same `keysToCamelCase` function
+recursively to the sub dictionary (which again does the same to each associated key and so on...). The resulting value, either the original value
 or the new dictionary is then associated with the key.
 
-For each key that is a string (which should be the case for all keys from a JSON response), we convert the key to camelCase using the
+For each key that is a string (which should be the case for all keys in a JSON response), we convert the key to camelCase using the
 `keysToCamelCase` String extension.
 
 And there you have it!
