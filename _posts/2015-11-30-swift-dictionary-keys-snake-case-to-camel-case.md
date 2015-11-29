@@ -51,11 +51,13 @@ extension Dictionary {
         keys.enumerate().forEach { (let index, var key) in
 
             var value = values[index]
-            if let v = value as? Dictionary, vl = v.keysToCamelCase() as? Value {
+            if let v = value as? Dictionary,
+               vl = v.keysToCamelCase() as? Value {
                 value = vl
             }
 
-            if let k = key as? String, ky = k.underscoreToCamelCase as? Key {
+            if let k = key as? String,
+            ky = k.underscoreToCamelCase as? Key {
                 key = ky
             }
 
