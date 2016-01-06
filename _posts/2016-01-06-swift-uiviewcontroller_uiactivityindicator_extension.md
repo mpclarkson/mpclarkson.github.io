@@ -71,6 +71,8 @@ extension UIViewController {
 
 Now we create a method called `stopActivityIndicator` to remove the activity indicator.
 
+{% highlight swift %}
+
 extension UIViewController {
 
     //Previous code
