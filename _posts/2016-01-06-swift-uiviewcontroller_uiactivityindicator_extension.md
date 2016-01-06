@@ -7,12 +7,12 @@ comments: true
 You shouldn't repeat code, so don't!
 
 One of the many things iOS developers need to do over and over again is to display a `UIActivityIndicatorView` in a `UIViewController`.
-However, most of the time this seems to be accomplished by adding a `UIActivityIndicator` to each controller, which does not adhere to the DRY
-principle. Thankfully, using Swift extensions, you only need to do this once to make an activity indicator available globally.
+However, most of the time this seems to be accomplished by adding a `UIActivityIndicatorView` to each controller, which does not adhere to the DRY
+principle.
+
+Thankfully, using Swift extensions, it is very easy to create a global activity indicator.
 
 <!--more-->
-
-Here we go...
 
 Firstly create UIViewController extension with a publicly accessible computed `Int` property,
 to use as the activity indicator `tag` identifier.
