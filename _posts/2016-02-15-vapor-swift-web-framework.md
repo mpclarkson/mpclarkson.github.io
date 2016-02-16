@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vapor a Swift Web Framework
+title: Vapor - Swift Web Framework
 comments: true
 ---
 
