@@ -6,7 +6,7 @@ comments: true
 
 ![swift vapor web framework](/assets/vapor.png)
 
-I've been keeping an eye out for projects looking to implement web frameworks using open source Swift.
+I've been keeping an eye out for projects looking to develop robust web frameworks in open source Swift.
 
 A week or so ago I stumbled on the very promising [Vapor](https://github.com/tannernelson/vapor) - a Laravel inspired web
 framework written in Swift. Check it out and star the repo.
