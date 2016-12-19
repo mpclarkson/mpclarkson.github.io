@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Matthew Clarkson
-tagline:          'Founder of hilenium.com, software developer, former CMO'
-description:      'Founder of <a href="http://hilenium.com" target="_blank">Hilenium.com</a>, lover of Swift, Symfony2, wants to do more Python.'
+tagline:          'Founder at hilenium.com, software developer and CMO.'
+description:      'Founder at <a href="https://hilenium.com" target="_blank">Hilenium.com</a>, works at <a href="https://scrunch.com" target="_blank">scrunch.com</a>.'
 url:              http://mpclarkson.github.io
 baseurl:          /
 
