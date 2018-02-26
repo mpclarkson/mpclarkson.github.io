@@ -14,7 +14,7 @@ while I'm interested in it, I suck at keeping up to date with cycling news. Ther
 
 So, over the weekend I decided to build a web app that aggregates cycling news from all the top global publications to make it easy to find the content that I'm interested in. This is something I've been thinking about doing for a long time, so I just fucking did it!
 
-The site is called [The Daily Spin](https://dailyspin.com/) and it currently aggregates news, articles and reviews from about 15 different sources. Articles are pushed into Elasticsearch and indexed to make searching across topics and publications really simple. The index is updated every 15 minutes so it's pretty current.
+The site is called [The Daily Spin](https://dailyspin.co/) (.co I'm afraid) and it currently aggregates news, articles and reviews from about 15 different sources. Articles are pushed into Elasticsearch and indexed to make searching across topics and publications really simple. The index is updated every 15 minutes so it's pretty current.
 
 It's meant to make it easy to browse great cycling content.
 
