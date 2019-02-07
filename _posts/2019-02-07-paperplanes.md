@@ -4,7 +4,7 @@ title: Paper Planes Rebrand
 comments: true
 ---
 
-Well, we've finally started the process of rebranding from SimonDell.com to [Paper Planes](https://flypaperplanes.co). 
+Well, we've finally started the process of rebranding from SimonDell.com to [Paper Planes](https://flypaperplanes.co). Coming soon...
 
 Nick from [Strong Digital](https://strongdigital.com.au), a web design company in Brisbane is helping us with our new site.
 
