@@ -16,7 +16,7 @@ We've had some spirited discussion about the name and branding options, which yo
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6495573463632220160" height="525" width="504" frameborder="0" allowfullscreen=""></iframe>
 
-All in all, the plan is to stand out from the rest and stand for something.
+All in all, the plan is to stand out from the crowds and stand for something - and to be memorable.
 
 All the best,
 
