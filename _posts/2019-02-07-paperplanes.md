@@ -14,7 +14,7 @@ We've had some spirited discussion about the name and branding options, which yo
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6495573463632220160" height="525" width="504" frameborder="0" allowfullscreen=""></iframe>
 
-All in all, the plan is to stand out from the crowds and stand for something - and to be memorable.
+All in all, the plan is to stand out from the crowd and stand for something - and to be memorable.
 
 Nick from [Strong Digital](https://strongdigital.com.au), a web design company in Brisbane is helping us with our new site. We highly recommend him.
 
