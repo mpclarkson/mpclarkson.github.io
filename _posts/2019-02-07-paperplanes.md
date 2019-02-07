@@ -8,6 +8,8 @@ Well, we've finally started the process of rebranding from SimonDell.com to [Pap
 
 The name's a bit contentious but we've specifically chosen this name to stand out from the crow this is our brand story:
 
+<!--more-->
+
 > Businesses are like paper planes. Anyone can make one. But they’re very hard to fly a great distance. You need the skills to know how to fold one properly and even then, if you don’t throw it in the right environment, it might still go nowhere.
 
 We've had some spirited discussion about the name and branding options, which you can read on Simon's post on LinkedIn:

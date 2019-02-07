@@ -10,6 +10,8 @@ I've moved away from hardcore dev and back into the marketing world. However, I'
 
 One thing that hasn't changed is my passion for cycling. I'm still regularly pumping out 250km+ per week, and loving every minute of it.
 
+<!--more-->
+
 while I'm interested in it, I suck at keeping up to date with cycling news. There's just too many great publications to keep on top of and, often, the content I want is buried deep. My favourite source of cycling news is [Cycling Tips](https://cyclingtips.com) but I still find it hard to keep on top of their great content.
 
 So, over the weekend I decided to build a web app that aggregates cycling news from all the top global publications to make it easy to find the content that I'm interested in. This is something I've been thinking about doing for a long time, so I just fucking did it!
